@@ -86,6 +86,8 @@ perturbation -> düzensizlik
 
 pipeline -> veri/komut işleme hattı
 
+poolimg -> havuz oluşturma
+
 posterior -> sonsal olasılık
 
 prior -> önsel olasılık
