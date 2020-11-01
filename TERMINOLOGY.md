@@ -134,6 +134,8 @@ stochastic -> rasgele
 
 symmetry -> bakışım
 
+token -> andıç
+
 transpose -> devrik
 
 tuple -> çokuzlu
