@@ -3,10 +3,9 @@
 
 :numref:`sec_seq2seq` bölümünde, yineleyen birimin durumunda kaynak dizisi girdi bilgilerini kodladık ve ardından hedef diziyi oluşturmak için bunu kod çözücüye ilettik. Hedef dizideki bir andıç (token), tüm kaynak dizi yerine kaynak dizisindeki bir veya daha fazla andıç ile yakından ilişkili olabilir. Örneğin, "Merhaba dünya!" cümlesini "Hello world!" cümlesine çevirirken "Hello", "Merhaba" ile ve "world", "dünya" ile eşleşir. Seq2seq modelinde, kod çözücü, kodlayıcı tarafından geçirilmiş duruma karşılık gelen bilgileri üstü kapalı olarak seçebilir. Ancak dikkat mekanizması bu seçimi açık hale getirir.
 
+*Dikkat*, girdiler üzerinde ek girdi düzenlemesine sahip genelleştirilmiş bir havuz oluşturma yöntemidir. Dikkat mekanizmasındaki temel bileşen dikkat katmanıdır ve basit olsun diye *dikkat* olarak adlandırırız. Dikkat katmanının girdisine *sorgu* denir. Bir sorgu için, dikkat, belleğe dayalı bir çıktı---dikkat katmanında kodlanmış bir dizi anahtar-değer çifti döndürür. Daha detaycı olmak gerekirse, belleğin $n$ anahtar-değer çiftleri, $(\mathbf{k}_1, \mathbf{v}_1), \ldots, (\mathbf{k}_n, \mathbf{v}_n)$ ile $\mathbf{k}_i \in \mathbb R^{d_k}$, $\mathbf{v}_i \in \mathbb R^{d_v}$'dir. $\mathbf{q} \in \mathbb R^{d_q}$ sorgusu verildiğinde, dikkat katmanı, değer ile aynı şekle sahip $\mathbf{o} \in \mathbb R^{d_v}$ çıktısını döndürür.
 
-*Attention* is a generalized pooling method with bias alignment over inputs. The core component in the attention mechanism is the attention layer, or called *attention* for simplicity. An input of the attention layer is called a *query*. For a query, attention returns an output based on the memory---a set of key-value pairs encoded in the attention layer. To be more specific, assume that the memory contains $n$ key-value pairs, $(\mathbf{k}_1, \mathbf{v}_1), \ldots, (\mathbf{k}_n, \mathbf{v}_n)$, with $\mathbf{k}_i \in \mathbb R^{d_k}$, $\mathbf{v}_i \in \mathbb R^{d_v}$. Given a query $\mathbf{q} \in \mathbb R^{d_q}$, the attention layer returns an output $\mathbf{o} \in \mathbb R^{d_v}$ with the same shape as the value.
-
-![The attention layer returns an output based on the input query and its memory.](../img/attention.svg)
+![Dikkat katmanı, girdi sorgusuna ve belleğine bağlı olarak bir çıktı döndürür.](../img/attention.svg)
 :label:`fig_attention`
 
 

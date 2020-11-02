@@ -143,7 +143,7 @@ kavram ve tekniklerini kapsar.
 :numref:`chap_computation` derin öğrenme hesaplamalarının çeşitli temel
 bileşenlerini açıklar ve daha sonra daha karmaşık modeller uygulamamız için gereken
 zemini hazırlar. Daha sonra, :numref:`chap_cnn` ve :numref:`chap_modern_cnn`'de,
-çoğu modern bilgisayarlı görme sisteminin omurgasını oluşturan güçlü araçlar
+çoğu modern bilgisayarla görme sisteminin omurgasını oluşturan güçlü araçlar
 olan evrişimli sinir ağlarını (CNN'ler) sunuyoruz.
 Sonrasında :numref:`chap_rnn` ve :numref:`chap_modern_rnn`'da, tekrarlayan sinir
 ağlarını (RNN - verilerdeki zamansal veya sıralı yapılardan yararlanan, doğal dil
@@ -224,7 +224,7 @@ Ancak, derin öğrenmenin hızla gelişmesi nedeniyle, *basılı sürümündeki*
 kodlar MXNet'in gelecekteki sürümlerinde düzgün çalışmayabilir.
 Ancak, çevrimiçi sürümü güncel tutmayı planlıyoruz.
 Böyle bir sorunla karşılaşırsanız, kodunuzu ve çalışma zamanı ortamınızı
-güncellemek için lütfen şuraya danışın :ref:`chap_installation`.
+güncellemek için lütfen şuraya bakın :ref:`chap_installation`.
 
 Modülleri MXNet'ten şu şekilde içe aktarıyoruz.
 :end_tab:
@@ -239,7 +239,7 @@ Ancak, derin öğrenmenin hızla gelişmesi nedeniyle, *basılı sürümündeki*
 kodlar PyTorch'un gelecekteki sürümlerinde düzgün çalışmayabilir.
 Ancak, çevrimiçi sürümü güncel tutmayı planlıyoruz.
 Böyle bir sorunla karşılaşırsanız, kodunuzu ve çalışma zamanı ortamınızı
-güncellemek için lütfen şuraya danışın :ref:`chap_installation`.
+güncellemek için lütfen şuraya bakın :ref:`chap_installation`.
 
 Modülleri PyTorch'tan şu şekilde içe aktarıyoruz.
 :end_tab:
@@ -254,7 +254,7 @@ Ancak, derin öğrenmenin hızla gelişmesi nedeniyle, *basılı sürümündeki*
 kodlar TensorFlow'un gelecekteki sürümlerinde düzgün çalışmayabilir.
 Ancak, çevrimiçi sürümü güncel tutmayı planlıyoruz.
 Böyle bir sorunla karşılaşırsanız, kodunuzu ve çalışma zamanı ortamınızı
-güncellemek için lütfen şuraya danışın :ref:`chap_installation`.
+güncellemek için lütfen şuraya bakın :ref:`chap_installation`.
 
 
 Modülleri TensorFlow'dan şu şekilde içe aktarıyoruz.
