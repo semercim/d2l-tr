@@ -44,19 +44,19 @@ kolaylaştırmalıdır. Dinamik web uygulamalarını örnek olarak alalım.
 etme potansiyeli, güçlü ve iyi belgelenmiş altyapıların geliştirilmesi sayesinde son on yılda çok daha büyük oranda gerçekleşti.
 
 Derin öğrenmenin potansiyelini test ederken, çeşitli disiplinler bir araya geldiği için zorluklarla karşılaşabilirsiniz.
-Derin öğrenmeyi uygulamak aynı anda
-+ (i) belirli bir problemi belirli bir şekilde çözme motivasyonlarını
-+ (ii) belirli bir modelleme yaklaşımının matematiğini
-+ (iii) modellerin verilere uyumu(fitting) için kullanılan optimizasyon algoritmalarını
-+ (iv) modelleri verimli bir şekilde eğitmek için gerekli mühendisliği, sayısal hesaplamanın gizli tuzaklarında gezinme ve mevcut donanımdan en iyi şekilde yararlanma yöntemlerini anlamayı gerektirir.
+Derin öğrenmeyi uygulamak aynı anda;
++ (i) Belirli bir problemi belirli bir şekilde çözme motivasyonlarını
++ (ii) Belirli bir modelleme yaklaşımının matematiğini
++ (iii) Modellerin verilere uyumu(fitting) için kullanılan optimizasyon algoritmalarını
++ (iv) Modelleri verimli bir şekilde eğitmek için gerekli mühendisliği, sayısal hesaplamanın gizli tuzaklarında gezinme ve mevcut donanımdan en iyi şekilde yararlanma yöntemlerini anlamayı gerektirir.
 
 Sorunları formüle etmek için gerekli eleştirel düşünme becerilerini, onları çözmek için gereken matematiği ve bu çözümleri uygulamak için kullanılan yazılım araçlarını tek bir yerde öğretebilmek oldukça zor ancak bu kitaptaki amacımız istekli uygulayıcılara hız kazandıran bütünleşik
 bir kaynak sunmaktır.
 
 Bu kitap projesine başladığımızda, aşağıdaki özelliklerin hepsini bir arada barındıran hiçbir kaynak yoktu:
-+ (i) güncel 
-+ (ii) modern makine öğreniminin tamamını geniş bir teknik derinlikle kapsayan
-+ (iii) ilgi çekici bir ders kitabından beklenen kaliteyi uygulamalı derslerde bulmayı beklediğiniz temiz çalıştırılabilir kod ile içiçe  serpiştirilmiş olarak sunan 
++ (i) Güncel 
++ (ii) Modern makine öğreniminin tamamını geniş bir teknik derinlikle kapsayan
++ (iii) İlgi çekici bir ders kitabından beklenen kaliteyi uygulamalı derslerde bulmayı beklediğiniz temiz çalıştırılabilir kod ile içiçe  serpiştirilmiş olarak sunan 
 
 Belirli bir derin öğrenme çerçevesinin nasıl kullanıldığını(örneğin, TensorFlow'daki matrislerle temel sayısal hesaplama) veya belirli tekniklerin nasıl uygulandığını (ör. LeNet, AlexNet, ResNets, vb. için kod parçaları) gösteren çeşitli blog yayınlarına ve GitHub depolarına dağılmış birçok kod örneği bulduk.
 Bu örnekler genellikle belirli bir yaklaşımı *nasıl* uygulayacağına odaklanmakta, ancak bazı algoritmik kararların *neden* verildiği tartışmasını dışlamaktaydı. Ara sıra bazı etkileşimli kaynaklar yalnızca derin öğrenmedeki belirli bir konuyu ele almak için ortaya çıkmış olsa da, örneğin
@@ -88,7 +88,7 @@ forum için Discourse'a karar verdik.
 Sistemimiz henüz mükemmel olmasa da, bu seçenekler farklı hedefler arasında iyi bir uzlaşma sağlamaktadır. Bunun böyle bir tümleşik iş akışı kullanılarak
 yayınlanan ilk kitap olabileceğine inanıyoruz.
 
-### Yaparak öğrenmek
+### Yaparak Öğrenme
 
 Birçok ders kitabı, ayrıntılı bir dizi konuyu öğretir.
 Örneğin, Chris Bishop'un mükemmel ders kitabı :cite:`Bishop.2006`,
@@ -285,7 +285,7 @@ import numpy as np
 import tensorflow as tf
 ```
 
-### Hedef kitle
+### Hedef Kitle
 
 Bu kitap derin öğrenme pratik tekniklerini sağlam bir şekilde kavramak isteyen
 öğrenciler (lisans veya lisansüstü), mühendisler ve araştırmacılar içindir.

@@ -51,7 +51,7 @@ Bu kitabı yararlı buluyorsanız, lütfen bu depoya yıldız ekleyin (★) veya
 > <b>&mdash; Bernhard Schölkopf, Director, Max Planck Institute for Intelligent Systems</b>
 
 
-## Katkıda bulunma ([nasıl yapıldığını öğrenin](https://d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html))
+## Katkıda Bulunma ([Nasıl Yapıldığını Öğrenin](https://d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html))
 
 Bu açık kaynak kitap pedagojik önerilerden, yazım hatası düzeltmelerinden ve topluluk katılımcılarından gelen diğer iyileştirmelerden faydalanmıştır. Yardımınız kitabı herkes için daha iyi hale getirmede değerlidir. Kitaptaki her bir D2L katılımcısına [teşekkür edeceğiz](https://d2l.ai/chapter_preface/index.html#Acknowledgments).
 
