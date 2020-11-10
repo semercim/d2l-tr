@@ -90,6 +90,8 @@ poolimg -> havuz oluşturma
 
 posterior -> sonsal olasılık
 
+pretraining -> ön eğitim
+
 prior -> önsel olasılık
 
 recurrent neural network -> yinelemeli sinir ağı
